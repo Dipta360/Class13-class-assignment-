@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-website {
+    width: 1349px;
+    margin: auto;
+}
+
+/* banner section */
+
+.banner-section {
+    width: 100%;
+    height: 530px;
+    background-image: url(./img/photo-1471879832106-c7ab9e0cee23.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* logo sub-section */
+
+.logo {
+    display: inline-block;
+    margin-left: 255px;
+    margin-top: 35px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+/* menu section */
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    margin-left: 242px;
+    position: relative;
+    bottom: 5px;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.menu ul li a:hover{
+    color: #e67861;
+}
+
+/* text section */
+
+.text {
+    margin-top: 275px;
+    margin-left: 360px;
+}
+.text h1 {
+    color: #fff;
+    font-style: italic;
+    font-size: 38px;
+}
+
+.text h1 i {
+    color: #ef664d;
+    position: relative;
+    bottom: 18px;
+}
+
+/* about section */
+
+.about-section h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 23px;
+    margin: 50px 0;
+}
+
+.content {
+    width: 750px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.content img {
+    width: 207px;
+    display: inline-block;
+    border: 2px solid #f1654c;
+    box-shadow: 0px 2px 5px 2px rgb(0, 0, 0, .4);
+}
+
+.content-text {
+    width: 460px;
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.content-text p {
+    margin-bottom: 15px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* service section */
+
+.service-section {
+    background: #2e3e4e;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.service-section .service-text {
+    font-size: 24px;
+    color: #f1664d;
+    padding: 35px 0;
+    font-weight: 300;
+}
+
+.service {
+    width: 23%;
+    display: inline-block;
+}
+
+.service h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.service ul li {
+    list-style: none;
+    margin-bottom: 8px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.service ul li::before {
+    content: '\f560';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 13px;
+    color: #f0664d;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.service .icon {
+    background: rgb(239, 102, 77);
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px 50%;
+    font-size: 30px;
+}
+
+/* button 1 */
+
+.button1 a {
+    background: #ef664d;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .4);
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.button1 a:hover{
+    color: #506873;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.button1 a::before{
+    content: '';
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: yellow;
+    border-radius: 5px;
+    transition: .3s;
+    z-index: -1;
+}
+
+.button1 a:hover::before{
+    width: 100%;
+}
+
+/* button 2 */
+
+.button2 a{
+    background: #ef664d;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .4);
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.button2 a:hover{
+    color: #506873
+    ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.button2 a::before{
+    content: '';
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: yellow;
+    border-radius: 5px;
+    transition: .3s;
+    z-index: -1;
+}
+
+.button2 a:hover::before{
+    height: 100%;
+}
+
+/* button 3 */
+
+.button3 a{
+    background: #ef664d;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .4);
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.button3 a:hover{
+    color: #506873;    ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.button3 a::before{
+    content: '';
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: yellow;
+    border-radius: 5px;
+    transition: .3s;
+    z-index: -1;
+}
+
+.button3 a:hover::before{
+    width: 100%;
+}
+
+/* contact section */
+
+.contact-section{
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin: 25px 0;
+    font-weight: normal;
+}
+
+.input {
+    padding-right: 280px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ed583d;
+    margin-bottom: 30px;
+}
+
+.submit {
+    background-color: #ef664d;
+    border: none;
+    display: inline-block;
+    padding: 10px 121px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, .5);
+    position: relative;
+    z-index: 1;
+}
+
+.submit .submit-btn{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.submit .submit-btn:hover{
+    cursor: pointer;
+}
+
+.submit::before{
+    content: '';
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    background: #79220b;
+    z-index: -1;
+    transition: .3s;
+}
+
+.submit::after{
+    content: '';
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #50271b;
+    z-index: -1;
+    transition: .3s;
+}
+
+.submit:hover::before{
+    width: 50%;
+    cursor: pointer;
+   
+}
+
+.submit:hover::after{
+    width: 50%;
+    cursor: pointer;
+    
+}
+
+
+/* footer section */
+
+.footer {
+    background: rgb(46, 62, 78);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer span{
+    color: #e3604d;
+}
